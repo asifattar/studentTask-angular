@@ -77,14 +77,7 @@ export class FormComponent implements OnInit {
   emailVal!: string;
   contactVal!: string;
 
-  studentArray: Array<iStudent> = [
-    {
-      fname: 'as',
-      lname: 'as',
-      email: 'sa',
-      contact: 2
-    }
-  ];
+  studentArray: Array<iStudent> = [];
 
   constructor() { }
 
