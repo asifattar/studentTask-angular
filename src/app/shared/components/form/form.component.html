@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="fname">First Name</label>
+                <input [(ngModel)]="fnameVal" type="text" class="form-control">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="lName">Last Name</label>
+                <input [(ngModel)]="lNameVal" type="text" class="form-control">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input [(ngModel)]="emailVal" type="text" class="form-control">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="Contact">Contact</label>
+                <input [(ngModel)]="contactVal" type="text" class="form-control">
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-group text-right">
+                <button 
+                (click)="onStudAdd()"
+                class="btn btn-success">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
